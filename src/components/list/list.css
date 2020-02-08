@@ -1,0 +1,6 @@
+.list {
+    padding: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+  }

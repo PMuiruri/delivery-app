@@ -1,0 +1,109 @@
+.card{
+    position: relative;
+    width: 370px;
+    height: 405px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,.2);
+    font-family: verdana;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .6s;
+  }
+  .image img{
+    width: 85%;
+    height: 75%;
+  }
+  .card:hover .image{
+    transform-origin: top;
+    transform: scale(0.6) translateY(20px);
+  }
+  .content{
+    transition: all .6s;
+  }
+  .card:hover .content{
+    transform: translateY(-100px);
+  }
+  .inner-content{
+    transition: all .6s;
+  }
+  .card:hover .inner-content{
+    transform: translateY(-40px);
+  }
+  .title{
+    margin: 20px;
+    width: 90%;
+    font-weight: 900;
+    font-size: 1.8rem;
+  }
+  .card:hover .title{
+    color: #4CAF50;
+  }
+  .city{
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .4s;
+  }
+  .card:hover .city{
+    opacity: 0;
+  }
+  
+  .icons{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0 auto;
+    border-top: 1px solid rgba(0,0,0,.05);
+    opacity: 0;
+    transition: all 4s;
+  }
+  .card:hover .icons{
+    opacity: 1;
+  }
+  .icon{
+    font-size: 22px;
+    cursor: pointer;
+    transition: all .4s;
+  }
+  .icon:hover{
+    color: #4CAF50;
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  .delivery-price::before{
+    content: "Delivery \a" attr(price-attr) attr(currency);
+    background: #4CAF50;
+    display: none;
+    color: #ffffff;
+    justify-content: center;
+    width: 130px;
+    align-items: center;
+    position: absolute;
+    letter-spacing: 1px;
+    white-space: pre-wrap;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transform-origin: top;
+    padding-top: 20px;
+    right: -115px;
+    height: 40px;
+    top:-50px;
+    transform: rotate(45deg);
+    z-index: 1;
+    transition: all .5s;
+  }
+  
+  .card:hover .delivery-price::before{
+    display: flex;
+    padding-top:96px;
+  }
+  
