@@ -53,7 +53,11 @@ class App extends Component {
     <div className="App">
       <div className="search-box">
       <SearchBox 
-        placeholder='Search by name or keyword' 
+        placeholder='Search by Restaurant Name' 
+        handleChange = {this.handleChange}
+      />
+      <SearchBox 
+        placeholder='Search by keyword e.g Pizza' 
         handleChange = {this.handleChange}
       />
       <Button name="fa fa-sort-up" handleClick={this.handleClick} value={'asc'} />

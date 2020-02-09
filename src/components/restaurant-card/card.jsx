@@ -12,6 +12,7 @@ const Card = (props) =>{
     };
     fetchData();
   }, [props.location]);
+
   return (
     <div className="card">
     <div className="delivery-price" name="Delivery" price-attr={(props.delivery_price/100).toFixed(2)} currency={props.currency}>
@@ -21,10 +22,10 @@ const Card = (props) =>{
     </div>
     <div className="content">
       <h2 className="title">{props.name}</h2>
+      <div className="city">{props.city}</div>
       <div className="inner-content">
-      <div className="location" value={props.location} onChange={(e)=>{props.handleChange(e)}}>{response}</div>
+      <div className="location">{response}</div>
         <div>
-        <div className="description">{props.description}</div>
         </div>
         <div className="icons">
           <span className="icon icon 1"><i className="fa fa-location-arrow" aria-hidden="true"></i></span>

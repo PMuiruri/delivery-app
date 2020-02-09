@@ -1,12 +1,11 @@
 .search-input{
   padding: 15px 10rem;
-  margin: 0.5rem;
   transition: transform 250ms ease-in-out;
   font-size: 16px;
   line-height: 18px;
+  margin-left: 2rem;
   border: 1px solid #ccc;
   border-radius: 2px;
-  margin-left: 2rem;
   color: #013870;
 }
 .search-input:hover,

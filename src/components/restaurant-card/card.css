@@ -54,19 +54,19 @@
   .card:hover .city{
     opacity: 0;
   }
-  .description{
+  .location{
     margin-bottom: 20px;
     opacity: 0;
     transition: all .4s;
     font-size: 1.2em;
   }
-  .card:hover .description{
+  .card:hover .location{
     opacity: 1;
   }
-  .description span:not(.active){
+  .location span:not(.active){
     cursor: pointer;
   }
-  .description span.active{
+  .location span.active{
     color:#ddd;
   }
   .icons{
