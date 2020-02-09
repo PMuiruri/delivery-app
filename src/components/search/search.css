@@ -4,8 +4,9 @@
   transition: transform 250ms ease-in-out;
   border: 1px solid #ccc;
   border-radius: 2px;
+  width:45rem;
   color: #013870;
-  margin: auto 1rem;
+  margin: auto 0.5rem;
 
 }
 .search-input:hover,
