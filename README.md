@@ -4,6 +4,8 @@ In addition a user can search for a restaurant based on the name or by keywords 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To preview the app please check [delivery-app](https://delivery-app.netlify.com/)
+
 ## Getting Started
 
 Please install the latest verson of Nodejs and Yarn on your computer.
