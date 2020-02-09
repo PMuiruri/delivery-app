@@ -28,9 +28,9 @@ const Card = (props) =>{
         <div>
         </div>
         <div className="icons">
-          <span className="icon icon 1"><i className="fa fa-location-arrow" aria-hidden="true"></i></span>
-          <span className="icon icon 2"><i className="fa fa-tags" aria-hidden="true"></i></span>
-          <span className="icon icon 3"><i className="fa fa-heart-o" aria-hidden="true"></i></span>
+          <span className="icon icon-1"><i className="fa fa-location-arrow" aria-hidden="true"></i></span>
+          <span className="icon icon-2"><i className="fa fa-tags" aria-hidden="true"></i></span>
+          <span className="icon icon-3"><i className="fa fa-heart-o" aria-hidden="true"></i></span>
         </div>
       </div>
     </div>

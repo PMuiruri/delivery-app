@@ -9,5 +9,6 @@
 @media (max-width: 640px) {
   .list{
     display: block;
+    margin: auto;
   }
 }

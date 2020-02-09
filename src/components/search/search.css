@@ -22,7 +22,7 @@
   font-style: italic;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 840px) {
   .search-input{
     display: block;
     margin: auto;

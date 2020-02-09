@@ -19,7 +19,7 @@
     background-color: #ffffff;
     color: #013870;
   }
-  @media (max-width: 640px) {
+  @media (max-width: 840px) {
     .button{
      margin: auto;
      display: flex;
