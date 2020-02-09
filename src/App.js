@@ -62,9 +62,10 @@ class App extends Component {
             placeholder='Search by keyword e.g Pizza' 
             handleChange = {this.handleChange}
         />
-      
+        
         <Button name="fa fa-sort-up" handleClick={this.handleClick} value={'asc'} />
         <Button name="fa fa-sort-down" handleClick={this.handleClick} value={'des'} />
+        
       </div>
       
       {this.state.isSorted ? 

@@ -1,16 +1,28 @@
+.search-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .search-input{
-  padding: 15px 10rem;
+  padding: 1.8rem 10rem;
   transition: transform 250ms ease-in-out;
-  font-size: 16px;
-  line-height: 18px;
-  margin-left: 2rem;
+  width: 40rem;
   border: 1px solid #ccc;
   border-radius: 2px;
   color: #013870;
+  margin: auto 1rem;
+
 }
 .search-input:hover,
 .search-input:focus {
-    padding: 15px 10rem;
+    padding: 1.8rem 10rem;
     outline: 0;
     background-position: 100% center;
+}
+.search-input::placeholder {
+  color: #013870;
+  font-size: 1.4rem;
+  line-height: 18px;
+  padding: 2rem;
+  font-style: italic;
 }
