@@ -1,5 +1,9 @@
 .button{
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
 }
 .btn {
     background-color: #013870;    
@@ -17,10 +21,9 @@
   }
   @media (max-width: 640px) {
     .button{
-      display: inline-block;
-      margin: auto;
-      text-align: center;
-      align-self: center;
+     margin: auto;
+     display: flex;
+    flex-direction: column;
     }
     
   } 

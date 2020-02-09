@@ -1,12 +1,7 @@
-.search-wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
+
 .search-input{
   padding: 1.8rem 10rem;
   transition: transform 250ms ease-in-out;
-  width: 40rem;
   border: 1px solid #ccc;
   border-radius: 2px;
   color: #013870;
@@ -25,4 +20,12 @@
   line-height: 18px;
   padding: 2rem;
   font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .search-input{
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
 }
