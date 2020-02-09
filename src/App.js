@@ -23,7 +23,7 @@ class App extends Component {
   handleChange = (e) =>{
     this.setState({ searchField: e.target.value, isSorted:false});
   }
-
+  
   handleClick = (e) =>{
     e.preventDefault();
     if(e.target.value === 'asc'){
@@ -52,21 +52,24 @@ class App extends Component {
   return (
     <div className="App">
       <div className="search-box">
-      <SearchBox 
-        placeholder='Search by Restaurant Name' 
-        handleChange = {this.handleChange}
-      />
-      <SearchBox 
-        placeholder='Search by keyword e.g Pizza' 
-        handleChange = {this.handleChange}
-      />
-      <Button name="fa fa-sort-up" handleClick={this.handleClick} value={'asc'} />
-      <Button name="fa fa-sort-down" handleClick={this.handleClick} value={'des'} />
+      
+        <SearchBox 
+            placeholder='Search by Restaurant Name' 
+            handleChange = {this.handleChange}
+        />
+      
+        <SearchBox 
+            placeholder='Search by keyword e.g Pizza' 
+            handleChange = {this.handleChange}
+        />
+      
+        <Button name="fa fa-sort-up" handleClick={this.handleClick} value={'asc'} />
+        <Button name="fa fa-sort-down" handleClick={this.handleClick} value={'des'} />
       </div>
-      {this.state.isSorted ? (<CardList data={sortedData}/>) 
-      : (<CardList 
-          data={filteredData } 
-          />)}
+      
+      {this.state.isSorted ? 
+      (<CardList data={sortedData}/>) : 
+      (<CardList data={filteredData } />)}
       </div>
     );
   }

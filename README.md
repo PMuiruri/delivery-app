@@ -1,4 +1,24 @@
+This is an app that displays data from 50 restaurants within the Helsinki area. It provides a customer with the name of the restaurant, city, street address and the price of delivery. 
+
+In addition a user can search for a restaurant based on the name or by keywords such as Sushi, Pizza etc. A user can also sort the list of restaurants in ascending or descending order
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Getting Started
+
+Please install the latest verson of Nodejs and Yarn on your computer.
+
+Open Command line terminal and navigate to the app folder
+
+Run yarn install to install all project dependencies
+
+After run Yarn Start to run the app in development mode
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+Alternatively run Yarn Build to run the app in production mode
+
 
 ## Available Scripts
 
