@@ -6,4 +6,23 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-self: center;
+  background-color: rgba(0, 180, 204, 0.69);
+  padding: 2rem;
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  border-top: 1px solid rgba(0,0,0,.05);
+  opacity: 0;
+  transition: all 4s;
+}
+@media (max-width: 700px) {
+  .search-box{
+    display: block;
+    margin: 0;
+  }
+  
 }
