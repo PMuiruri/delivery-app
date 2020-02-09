@@ -41,11 +41,11 @@
     font-size: 1.8rem;
   }
   .card:hover .title{
-    color: #013870;
+    color: #4CAF50;
   }
   .city{
     margin-bottom: 20px;
-    color: #013870;
+    color: #4CAF50;
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 1px;
@@ -53,21 +53,6 @@
   }
   .card:hover .city{
     opacity: 0;
-  }
-  .description{
-    margin-bottom: 20px;
-    opacity: 0;
-    transition: all .4s;
-    font-size: 1.2em;
-  }
-  .card:hover .description{
-    opacity: 1;
-  }
-  .description span:not(.active){
-    cursor: pointer;
-  }
-  .description span.active{
-    color:#ddd;
   }
   
   .icons{
@@ -90,13 +75,13 @@
     transition: all .4s;
   }
   .icon:hover{
-    color: #013870;
+    color: #4CAF50;
     transform: scale(1.2);
     opacity: 1;
   }
   .delivery-price::before{
     content: "Delivery \a" attr(price-attr) attr(currency);
-    background: #013870;
+    background: #4CAF50;
     display: none;
     color: #ffffff;
     justify-content: center;
@@ -105,8 +90,8 @@
     position: absolute;
     letter-spacing: 1px;
     white-space: pre-wrap;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 500;
     transform-origin: top;
     padding-top: 20px;
     right: -115px;
