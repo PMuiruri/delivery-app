@@ -63,8 +63,8 @@ class App extends Component {
             handleChange = {this.handleChange}
         />
         
-        <Button name="fa fa-sort-up" handleClick={this.handleClick} value={'asc'} />
-        <Button name="fa fa-sort-down" handleClick={this.handleClick} value={'des'} />
+        <Button name="Asc " icon="fa fa-sort-up" handleClick={this.handleClick} value={'asc'} />
+        <Button name="Des " icon="fa fa-sort-down" handleClick={this.handleClick} value={'des'} />
         
       </div>
       

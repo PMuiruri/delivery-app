@@ -18,6 +18,9 @@
     background-color: #ffffff;
     color: #013870;
   }
+  .btn span{
+    padding: 0.5em;
+  }
   @media (max-width: 840px) {
     .button{
      margin: auto;

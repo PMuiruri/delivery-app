@@ -1,8 +1,8 @@
 import React from 'react';
 import './button.css';
 
-export const Button = ({name, value, handleClick}) => (
+export const Button = ({name, icon, value, handleClick}) => (
     <div className='button'>
-       <button className ='btn' value={value} onClick={handleClick}><i className={name} aria-hidden="true"></i></button>
+       <button className ='btn' value={value} onClick={handleClick}>{name}<span><i className={icon} aria-hidden="true"></i></span> </button>
     </div>
 );
