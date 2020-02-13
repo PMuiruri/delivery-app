@@ -1,4 +1,4 @@
-This is an app that displays data from 50 restaurants within the Helsinki area. It provides a customer with the name of the restaurant, city, street address and the price of delivery. 
+This is a single page application that displays data from 50 restaurants within the Helsinki area. It provides a customer with the name of the restaurant, city, street address and the price of delivery. 
 
 In addition a user can search for a restaurant based on the name or by keywords such as Sushi, Pizza etc. A user can also sort the list of restaurants in ascending or descending order
 
